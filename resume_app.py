@@ -2,6 +2,7 @@ import streamlit as st
 
 # Sidebar navigation
 #st.sidebar.title("Navigation")
+st.set_page_config(page_title='Muhammad Asadullah Resume', page_icon="adult")
 pages = ["Home", "Resume", "Projects"]
 page = st.radio("Go to", pages, horizontal=True)
 
